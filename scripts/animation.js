@@ -25,7 +25,7 @@ function next() {
 }
 
 function startGame() {
-    window.location = "/game.html";
+    window.location = "/tictactoe/game.html";
 }
 
 let players = document.querySelectorAll('input[name="avatar"]');
