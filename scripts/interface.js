@@ -80,5 +80,5 @@ restartGame.addEventListener("click", () => {
 let goHome = document.querySelector('.home');
 
 goHome.addEventListener('click', () => {
-    window.location.href = '/tictactoe';
+    window.location.href = './';
 });
