@@ -1,0 +1,253 @@
+body {
+    text-align: center;
+    background: #FF4C4C;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #484B4D;
+    margin: 30px 0 20px;
+}
+
+.ticTacToeLogo {
+    margin-top: 120px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contentWrapper {
+    background: #FF4C4C;
+    width: 100%;
+    height: 100vh;
+}
+
+.stage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* max-height: 600px; */
+    /* height: 100%; */
+    max-width: 600px;
+    width: 100%;
+    padding: 50px 0;
+    background: #FFF;
+    margin: auto;
+
+
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.stage div {
+    display: flex;
+}
+
+.line1 {
+    background: #f2f2f2;
+    padding: 10px 10px 0 10px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.line2 {
+    background: #f2f2f2;
+    padding: 0 10px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line3 {
+    background: #f2f2f2;
+    padding: 0 10px 10px 10px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background-color: #f2f2f2;
+    /* border: 1px solid gray; */
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square1 {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.square2 {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.square3 {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.square4 {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.square5 {
+    border: 1px solid gray;
+}
+
+.square6 {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.square7 {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.square8 {
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.square9 {
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.o {
+    width: 80%;
+    height: 80%;
+}
+
+.x {
+    height: 80%;
+    width: 80%;
+}
+
+
+.gameControl,
+.score {
+    display: flex;
+    flex-direction: column;
+}
+
+.score h1 {
+    font-size: 20px;
+}
+
+.scoreCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.player1,
+.player2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 75px;
+    height: 100%;
+}
+
+.player1 {
+    margin-right: 20px;
+}
+
+.player2 {
+    margin-left: 20px;
+}
+
+.player1 svg,
+.player2 svg {
+    max-width: 50px;
+    width: 100%;
+}
+
+.player1 p,
+.player2 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #484B4D;
+    margin-top: 8px;
+}
+
+.realScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.realScore p {
+    font-size: 24px;
+    color: #484B4D;
+    font-weight: 500;
+    border: 1px solid #6BC1DD;
+    border-radius: 6px;
+    padding: 5px 8px;
+}
+
+.realScore span {
+    color: #484B4D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.realScore .realP1Score {
+    margin-right: 8px;
+}
+
+.realScore .realP2Score {
+    margin-left: 8px;
+}
+
+.buttonsContainer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 500px; */
+    width: 500px;
+    /* border: 1px solid red; */
+}
+
+.buttonsContainer .home {
+    margin-right: 16px;
+}
+
+.buttonsContainer button {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    background: #EED600;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    color: #484B4D;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonsContainer button:hover {
+    background: #fff067;
+}
